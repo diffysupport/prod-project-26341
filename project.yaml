@@ -1,0 +1,62 @@
+basic:
+    name: 'Josh Cellars'
+    environments:
+        production: 'https://www.joshcellars.com/'
+        staging: 'https://staging-c3ffdaae370bfb0c8be7.o2.myshopify.dev/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - collections/all-products
+        - collections/red-wines
+        - collections/white-wines
+        - collections/filter-bundles
+        - josh-cellars-reserve
+        - wine-club
+        - our-story
+        - recipes
+        - tasting-quiz
+        - store-locator
+        - shipping
+        - account
+        - favorites
+        - recipes/white-sangria
+        - products/josh-cellars-cabernet-sauvignon
+        - products/josh-cellars-chardonnay
+        - products/josh-cellars-hearth-cabernet-sauvignon
+        - products/josh-cellars-legacy-red-blend
+        - products/josh-cellars-reserve-bourbon-barrel-aged-cabernet-sauvignon
+        - products/josh-cellars-reserve-buttery-chardonnay
+        - products/josh-cellars-reserve-paso-robles-cabernet-sauvignon
+        - products/josh-cellars-reserve-north-coast-cabernet-sauvignon
+        - contact
+        - return-policy
+        - cookie-notice
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
